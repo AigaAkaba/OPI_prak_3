@@ -2,7 +2,15 @@
 #include "convertation.h"
 #include "output.h"
 
-int main() {
+/**
+ * @file main.cpp
+ * @brief Головний модуль програми-конвертера валют
+ * Керує послідовністю виклику підмодулів введення, обчислення та виведення
+ */
+
+int main() 
+{
+    //Послідовний виклик функцій з підмодулів
     int choice = getCurrencyChoice();
     double val = getValue();
     
